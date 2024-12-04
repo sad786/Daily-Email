@@ -6,7 +6,7 @@ import json
 class DailyDigestGUI:
 
     def __init__(self, root):
-        # build the GUI #
+        # build the GUI
         self.__root = root
         self.__root.title('Daily Digest')
         title_label = ttk.Label(self.__root, text = ' \U0001F4DC Daily Digest \U0001F4DC',
