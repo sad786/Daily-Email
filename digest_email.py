@@ -1,5 +1,2 @@
-import content
-import datetime
-import smtplib
-from email.message import EmailMessage
-
+# this file is of no purpose 
+# wanted to delete this but forgot
