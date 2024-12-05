@@ -23,7 +23,7 @@ def get_email_content():
 
 def get_weather_forecast(cord ={'lat':'28.98','long':'77.70'}):
     try:
-        api_key = '5e5ec5f2f0a869a5a9d914db1fa39b72'
+        api_key = 'API_KEY_WILL_BE_HERE'
         url = f'https://api.openweathermap.org/data/2.5/forecast?lat={cord["lat"]}&lon={cord["long"]}&appid={api_key}'
         data = json.load(request.urlopen(url))
 
